@@ -64,7 +64,7 @@ def main():
     out_teams = [{"name": PT_NAMES.get(code, name_src), "code": code, "points": round(pts, 2)}
                  for code, (name_src, pts) in ordered]
     data = {
-        "updated": datetime.datetime.now(datetime.timezone.utc).strftime("%d/%m/%Y %H:%M UTC"),
+        "updated": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-3))).strftime("%d/%m/%Y %H:%M (horário de Brasília)"),
         "source": "football-ranking.com",
         "teams": out_teams,
     }
