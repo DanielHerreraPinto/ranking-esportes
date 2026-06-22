@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-21 — retrato inicial",
+ "updated": "22/06/2026 13:27 UTC",
  "source": "football-ranking.com",
  "teams": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "Espanha",
    "code": "ESP",
-   "points": 1856.03
+   "points": 1864.32
   },
   {
    "name": "Inglaterra",
@@ -50,7 +50,7 @@
   {
    "name": "Bélgica",
    "code": "BEL",
-   "points": 1733.94
+   "points": 1727.88
   },
   {
    "name": "México",
@@ -78,24 +78,24 @@
    "points": 1695.21
   },
   {
+   "name": "Japão",
+   "code": "JPN",
+   "points": 1681.27
+  },
+  {
    "name": "Senegal",
    "code": "SEN",
    "points": 1667.66
   },
   {
-   "name": "Japão",
-   "code": "JPN",
-   "points": 1665.95
+   "name": "Suíça",
+   "code": "SUI",
+   "points": 1654.94
   },
   {
    "name": "Uruguai",
    "code": "URU",
-   "points": 1661.95
-  },
-  {
-   "name": "Suíça",
-   "code": "SUI",
-   "points": 1654.94
+   "points": 1649.97
   },
   {
    "name": "Dinamarca",
@@ -110,7 +110,7 @@
   {
    "name": "Irã",
    "code": "IRN",
-   "points": 1605.12
+   "points": 1611.18
   },
   {
    "name": "Coreia do Sul",
@@ -128,6 +128,11 @@
    "points": 1584.55
   },
   {
+   "name": "Egito",
+   "code": "EGY",
+   "points": 1583.38
+  },
+  {
    "name": "Noruega",
    "code": "NOR",
    "points": 1577.19
@@ -138,19 +143,14 @@
    "points": 1572.13
   },
   {
-   "name": "Equador",
-   "code": "ECU",
-   "points": 1570.77
-  },
-  {
-   "name": "Egito",
-   "code": "EGY",
-   "points": 1570.67
-  },
-  {
    "name": "Argélia",
    "code": "ALG",
    "points": 1559.23
+  },
+  {
+   "name": "Equador",
+   "code": "ECU",
+   "points": 1558.36
   },
   {
    "name": "Costa do Marfim",
@@ -268,11 +268,6 @@
    "points": 1455.59
   },
   {
-   "name": "Tunísia",
-   "code": "TUN",
-   "points": 1453.01
-  },
-  {
    "name": "Uzbequistão",
    "code": "UZB",
    "points": 1444.48
@@ -293,9 +288,14 @@
    "points": 1438.82
   },
   {
+   "name": "Tunísia",
+   "code": "TUN",
+   "points": 1437.69
+  },
+  {
    "name": "Arábia Saudita",
    "code": "KSA",
-   "points": 1435.0
+   "points": 1426.71
   },
   {
    "name": "Iraque",
@@ -315,7 +315,7 @@
   {
    "name": "Cabo Verde",
    "code": "CPV",
-   "points": 1389.79
+   "points": 1401.77
   },
   {
    "name": "Bósnia e Herzegovina",
@@ -403,24 +403,24 @@
    "points": 1301.98
   },
   {
+   "name": "Curaçao",
+   "code": "CUW",
+   "points": 1299.41
+  },
+  {
    "name": "Guiné",
    "code": "GUI",
    "points": 1295.6
   },
   {
-   "name": "Nova Zelândia",
-   "code": "NZL",
-   "points": 1290.04
-  },
-  {
-   "name": "Curaçao",
-   "code": "CUW",
-   "points": 1287.0
-  },
-  {
    "name": "Síria",
    "code": "SYR",
    "points": 1283.05
+  },
+  {
+   "name": "Nova Zelândia",
+   "code": "NZL",
+   "points": 1277.34
   },
   {
    "name": "Gabão",
