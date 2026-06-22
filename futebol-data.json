@@ -1,0 +1,1062 @@
+{
+ "updated": "2026-06-21 — retrato inicial",
+ "source": "football-ranking.com",
+ "teams": [
+  {
+   "name": "Argentina",
+   "code": "ARG",
+   "points": 1889.07
+  },
+  {
+   "name": "França",
+   "code": "FRA",
+   "points": 1887.11
+  },
+  {
+   "name": "Espanha",
+   "code": "ESP",
+   "points": 1856.03
+  },
+  {
+   "name": "Inglaterra",
+   "code": "ENG",
+   "points": 1847.68
+  },
+  {
+   "name": "Brasil",
+   "code": "BRA",
+   "points": 1772.01
+  },
+  {
+   "name": "Marrocos",
+   "code": "MAR",
+   "points": 1769.98
+  },
+  {
+   "name": "Países Baixos",
+   "code": "NED",
+   "points": 1764.4
+  },
+  {
+   "name": "Alemanha",
+   "code": "GER",
+   "points": 1760.45
+  },
+  {
+   "name": "Portugal",
+   "code": "POR",
+   "points": 1755.09
+  },
+  {
+   "name": "Bélgica",
+   "code": "BEL",
+   "points": 1733.94
+  },
+  {
+   "name": "México",
+   "code": "MEX",
+   "points": 1721.78
+  },
+  {
+   "name": "Colômbia",
+   "code": "COL",
+   "points": 1712.6
+  },
+  {
+   "name": "Estados Unidos",
+   "code": "USA",
+   "points": 1709.59
+  },
+  {
+   "name": "Itália",
+   "code": "ITA",
+   "points": 1704.73
+  },
+  {
+   "name": "Croácia",
+   "code": "CRO",
+   "points": 1695.21
+  },
+  {
+   "name": "Senegal",
+   "code": "SEN",
+   "points": 1667.66
+  },
+  {
+   "name": "Japão",
+   "code": "JPN",
+   "points": 1665.95
+  },
+  {
+   "name": "Uruguai",
+   "code": "URU",
+   "points": 1661.95
+  },
+  {
+   "name": "Suíça",
+   "code": "SUI",
+   "points": 1654.94
+  },
+  {
+   "name": "Dinamarca",
+   "code": "DEN",
+   "points": 1619.47
+  },
+  {
+   "name": "Áustria",
+   "code": "AUT",
+   "points": 1612.85
+  },
+  {
+   "name": "Irã",
+   "code": "IRN",
+   "points": 1605.12
+  },
+  {
+   "name": "Coreia do Sul",
+   "code": "KOR",
+   "points": 1591.75
+  },
+  {
+   "name": "Nigéria",
+   "code": "NGA",
+   "points": 1585.02
+  },
+  {
+   "name": "Austrália",
+   "code": "AUS",
+   "points": 1584.55
+  },
+  {
+   "name": "Noruega",
+   "code": "NOR",
+   "points": 1577.19
+  },
+  {
+   "name": "Canadá",
+   "code": "CAN",
+   "points": 1572.13
+  },
+  {
+   "name": "Equador",
+   "code": "ECU",
+   "points": 1570.77
+  },
+  {
+   "name": "Egito",
+   "code": "EGY",
+   "points": 1570.67
+  },
+  {
+   "name": "Argélia",
+   "code": "ALG",
+   "points": 1559.23
+  },
+  {
+   "name": "Costa do Marfim",
+   "code": "CIV",
+   "points": 1551.71
+  },
+  {
+   "name": "Turquia",
+   "code": "TUR",
+   "points": 1550.12
+  },
+  {
+   "name": "Ucrânia",
+   "code": "UKR",
+   "points": 1549.29
+  },
+  {
+   "name": "Rússia",
+   "code": "RUS",
+   "points": 1529.6
+  },
+  {
+   "name": "Polônia",
+   "code": "POL",
+   "points": 1526.18
+  },
+  {
+   "name": "Suécia",
+   "code": "SWE",
+   "points": 1518.0
+  },
+  {
+   "name": "Paraguai",
+   "code": "PAR",
+   "points": 1517.39
+  },
+  {
+   "name": "País de Gales",
+   "code": "WAL",
+   "points": 1516.95
+  },
+  {
+   "name": "Hungria",
+   "code": "HUN",
+   "points": 1506.39
+  },
+  {
+   "name": "Panamá",
+   "code": "PAN",
+   "points": 1505.33
+  },
+  {
+   "name": "Escócia",
+   "code": "SCO",
+   "points": 1504.41
+  },
+  {
+   "name": "Sérvia",
+   "code": "SRB",
+   "points": 1502.13
+  },
+  {
+   "name": "RD Congo",
+   "code": "COD",
+   "points": 1487.19
+  },
+  {
+   "name": "Tchéquia",
+   "code": "CZE",
+   "points": 1481.49
+  },
+  {
+   "name": "Camarões",
+   "code": "CMR",
+   "points": 1481.24
+  },
+  {
+   "name": "Eslováquia",
+   "code": "SVK",
+   "points": 1473.66
+  },
+  {
+   "name": "Grécia",
+   "code": "GRE",
+   "points": 1473.19
+  },
+  {
+   "name": "Venezuela",
+   "code": "VEN",
+   "points": 1469.18
+  },
+  {
+   "name": "Chile",
+   "code": "CHI",
+   "points": 1458.2
+  },
+  {
+   "name": "Peru",
+   "code": "PER",
+   "points": 1457.69
+  },
+  {
+   "name": "Costa Rica",
+   "code": "CRC",
+   "points": 1456.03
+  },
+  {
+   "name": "Romênia",
+   "code": "ROU",
+   "points": 1455.89
+  },
+  {
+   "name": "Mali",
+   "code": "MLI",
+   "points": 1455.59
+  },
+  {
+   "name": "Tunísia",
+   "code": "TUN",
+   "points": 1453.01
+  },
+  {
+   "name": "Uzbequistão",
+   "code": "UZB",
+   "points": 1444.48
+  },
+  {
+   "name": "Irlanda",
+   "code": "IRL",
+   "points": 1441.1
+  },
+  {
+   "name": "Eslovênia",
+   "code": "SVN",
+   "points": 1441.09
+  },
+  {
+   "name": "Catar",
+   "code": "QAT",
+   "points": 1438.82
+  },
+  {
+   "name": "Arábia Saudita",
+   "code": "KSA",
+   "points": 1435.0
+  },
+  {
+   "name": "Iraque",
+   "code": "IRQ",
+   "points": 1426.53
+  },
+  {
+   "name": "África do Sul",
+   "code": "RSA",
+   "points": 1418.21
+  },
+  {
+   "name": "Burkina Faso",
+   "code": "BFA",
+   "points": 1406.99
+  },
+  {
+   "name": "Cabo Verde",
+   "code": "CPV",
+   "points": 1389.79
+  },
+  {
+   "name": "Bósnia e Herzegovina",
+   "code": "BIH",
+   "points": 1381.18
+  },
+  {
+   "name": "Gana",
+   "code": "GHA",
+   "points": 1380.71
+  },
+  {
+   "name": "Honduras",
+   "code": "HON",
+   "points": 1378.97
+  },
+  {
+   "name": "Albânia",
+   "code": "ALB",
+   "points": 1376.03
+  },
+  {
+   "name": "Jordânia",
+   "code": "JOR",
+   "points": 1372.29
+  },
+  {
+   "name": "Emirados Árabes Unidos",
+   "code": "UAE",
+   "points": 1370.47
+  },
+  {
+   "name": "Macedônia do Norte",
+   "code": "MKD",
+   "points": 1369.16
+  },
+  {
+   "name": "Irlanda do Norte",
+   "code": "NIR",
+   "points": 1365.3
+  },
+  {
+   "name": "Jamaica",
+   "code": "JAM",
+   "points": 1357.84
+  },
+  {
+   "name": "Geórgia",
+   "code": "GEO",
+   "points": 1355.26
+  },
+  {
+   "name": "Islândia",
+   "code": "ISL",
+   "points": 1342.77
+  },
+  {
+   "name": "Finlândia",
+   "code": "FIN",
+   "points": 1341.92
+  },
+  {
+   "name": "Israel",
+   "code": "ISR",
+   "points": 1333.9
+  },
+  {
+   "name": "Bolívia",
+   "code": "BOL",
+   "points": 1326.0
+  },
+  {
+   "name": "Kosovo",
+   "code": "KOS",
+   "points": 1319.12
+  },
+  {
+   "name": "Omã",
+   "code": "OMA",
+   "points": 1306.9
+  },
+  {
+   "name": "Montenegro",
+   "code": "MNE",
+   "points": 1301.98
+  },
+  {
+   "name": "Guiné",
+   "code": "GUI",
+   "points": 1295.6
+  },
+  {
+   "name": "Nova Zelândia",
+   "code": "NZL",
+   "points": 1290.04
+  },
+  {
+   "name": "Curaçao",
+   "code": "CUW",
+   "points": 1287.0
+  },
+  {
+   "name": "Síria",
+   "code": "SYR",
+   "points": 1283.05
+  },
+  {
+   "name": "Gabão",
+   "code": "GAB",
+   "points": 1272.51
+  },
+  {
+   "name": "Bulgária",
+   "code": "BUL",
+   "points": 1271.68
+  },
+  {
+   "name": "Haiti",
+   "code": "HAI",
+   "points": 1271.0
+  },
+  {
+   "name": "Angola",
+   "code": "ANG",
+   "points": 1265.58
+  },
+  {
+   "name": "Uganda",
+   "code": "UGA",
+   "points": 1264.09
+  },
+  {
+   "name": "Zâmbia",
+   "code": "ZAM",
+   "points": 1255.82
+  },
+  {
+   "name": "China",
+   "code": "CHN",
+   "points": 1254.81
+  },
+  {
+   "name": "Bahrein",
+   "code": "BHR",
+   "points": 1254.41
+  },
+  {
+   "name": "Benin",
+   "code": "BEN",
+   "points": 1252.17
+  },
+  {
+   "name": "Tailândia",
+   "code": "THA",
+   "points": 1250.8
+  },
+  {
+   "name": "Palestina",
+   "code": "PLE",
+   "points": 1243.71
+  },
+  {
+   "name": "Belarus",
+   "code": "BLR",
+   "points": 1242.88
+  },
+  {
+   "name": "Guatemala",
+   "code": "GUA",
+   "points": 1238.74
+  },
+  {
+   "name": "Luxemburgo",
+   "code": "LUX",
+   "points": 1232.82
+  },
+  {
+   "name": "Vietnã",
+   "code": "VIE",
+   "points": 1225.68
+  },
+  {
+   "name": "El Salvador",
+   "code": "SLV",
+   "points": 1225.34
+  },
+  {
+   "name": "Tajiquistão",
+   "code": "TJK",
+   "points": 1224.19
+  },
+  {
+   "name": "Trinidad e Tobago",
+   "code": "TRI",
+   "points": 1219.59
+  },
+  {
+   "name": "Moçambique",
+   "code": "MOZ",
+   "points": 1218.62
+  },
+  {
+   "name": "Madagascar",
+   "code": "MAD",
+   "points": 1202.69
+  },
+  {
+   "name": "Guiné Equatorial",
+   "code": "EQG",
+   "points": 1195.2
+  },
+  {
+   "name": "Quirguistão",
+   "code": "KGZ",
+   "points": 1192.16
+  },
+  {
+   "name": "Armênia",
+   "code": "ARM",
+   "points": 1189.63
+  },
+  {
+   "name": "Comores",
+   "code": "COM",
+   "points": 1187.91
+  },
+  {
+   "name": "Quênia",
+   "code": "KEN",
+   "points": 1185.08
+  },
+  {
+   "name": "Líbia",
+   "code": "LBY",
+   "points": 1182.08
+  },
+  {
+   "name": "Cazaquistão",
+   "code": "KAZ",
+   "points": 1180.78
+  },
+  {
+   "name": "Tanzânia",
+   "code": "TAN",
+   "points": 1180.27
+  },
+  {
+   "name": "Mauritânia",
+   "code": "MTN",
+   "points": 1176.68
+  },
+  {
+   "name": "Níger",
+   "code": "NIG",
+   "points": 1175.33
+  },
+  {
+   "name": "Líbano",
+   "code": "LBN",
+   "points": 1172.22
+  },
+  {
+   "name": "Gâmbia",
+   "code": "GAM",
+   "points": 1159.64
+  },
+  {
+   "name": "Sudão",
+   "code": "SDN",
+   "points": 1157.22
+  },
+  {
+   "name": "Indonésia",
+   "code": "IDN",
+   "points": 1157.14
+  },
+  {
+   "name": "Togo",
+   "code": "TOG",
+   "points": 1152.76
+  },
+  {
+   "name": "Coreia do Norte",
+   "code": "PRK",
+   "points": 1151.05
+  },
+  {
+   "name": "Namíbia",
+   "code": "NAM",
+   "points": 1148.84
+  },
+  {
+   "name": "Serra Leoa",
+   "code": "SLE",
+   "points": 1147.56
+  },
+  {
+   "name": "Ilhas Faroé",
+   "code": "FRO",
+   "points": 1136.59
+  },
+  {
+   "name": "Chipre",
+   "code": "CYP",
+   "points": 1133.25
+  },
+  {
+   "name": "Suriname",
+   "code": "SUR",
+   "points": 1132.43
+  },
+  {
+   "name": "Azerbaijão",
+   "code": "AZE",
+   "points": 1132.0
+  },
+  {
+   "name": "Estônia",
+   "code": "EST",
+   "points": 1130.64
+  },
+  {
+   "name": "Ruanda",
+   "code": "RWA",
+   "points": 1126.62
+  },
+  {
+   "name": "Malawi",
+   "code": "MWI",
+   "points": 1122.05
+  },
+  {
+   "name": "Zimbábue",
+   "code": "ZIM",
+   "points": 1119.78
+  },
+  {
+   "name": "Nicarágua",
+   "code": "NCA",
+   "points": 1114.63
+  },
+  {
+   "name": "Guiné-Bissau",
+   "code": "GNB",
+   "points": 1108.38
+  },
+  {
+   "name": "Kuwait",
+   "code": "KUW",
+   "points": 1106.47
+  },
+  {
+   "name": "Congo",
+   "code": "CGO",
+   "points": 1105.96
+  },
+  {
+   "name": "Filipinas",
+   "code": "PHI",
+   "points": 1100.95
+  },
+  {
+   "name": "Malásia",
+   "code": "MAS",
+   "points": 1086.22
+  },
+  {
+   "name": "Letônia",
+   "code": "LVA",
+   "points": 1085.66
+  },
+  {
+   "name": "Índia",
+   "code": "IND",
+   "points": 1084.93
+  },
+  {
+   "name": "República Centro-Africana",
+   "code": "CTA",
+   "points": 1080.82
+  },
+  {
+   "name": "Libéria",
+   "code": "LBR",
+   "points": 1080.44
+  },
+  {
+   "name": "Turcomenistão",
+   "code": "TKM",
+   "points": 1078.65
+  },
+  {
+   "name": "Burundi",
+   "code": "BDI",
+   "points": 1078.01
+  },
+  {
+   "name": "Etiópia",
+   "code": "ETH",
+   "points": 1077.52
+  },
+  {
+   "name": "República Dominicana",
+   "code": "DOM",
+   "points": 1076.5
+  },
+  {
+   "name": "Iêmen",
+   "code": "YEM",
+   "points": 1065.24
+  },
+  {
+   "name": "Lesoto",
+   "code": "LES",
+   "points": 1064.29
+  },
+  {
+   "name": "Botsuana",
+   "code": "BOT",
+   "points": 1063.63
+  },
+  {
+   "name": "Singapura",
+   "code": "SGP",
+   "points": 1057.95
+  },
+  {
+   "name": "Lituânia",
+   "code": "LTU",
+   "points": 1056.85
+  },
+  {
+   "name": "Guiana",
+   "code": "GUY",
+   "points": 1049.32
+  },
+  {
+   "name": "Nova Caledônia",
+   "code": "NCL",
+   "points": 1036.95
+  },
+  {
+   "name": "São Cristóvão e Névis",
+   "code": "SKN",
+   "points": 1036.33
+  },
+  {
+   "name": "Ilhas Salomão",
+   "code": "SOL",
+   "points": 1031.89
+  },
+  {
+   "name": "Porto Rico",
+   "code": "PUR",
+   "points": 1024.3
+  },
+  {
+   "name": "Fiji",
+   "code": "FIJ",
+   "points": 1024.17
+  },
+  {
+   "name": "Hong Kong",
+   "code": "HKG",
+   "points": 1024.16
+  },
+  {
+   "name": "Taiti",
+   "code": "TAH",
+   "points": 1019.04
+  },
+  {
+   "name": "Mianmar",
+   "code": "MYA",
+   "points": 1010.91
+  },
+  {
+   "name": "Moldávia",
+   "code": "MDA",
+   "points": 1008.24
+  },
+  {
+   "name": "Vanuatu",
+   "code": "VAN",
+   "points": 1002.53
+  },
+  {
+   "name": "Malta",
+   "code": "MLT",
+   "points": 992.79
+  },
+  {
+   "name": "Antígua e Barbuda",
+   "code": "ATG",
+   "points": 986.58
+  },
+  {
+   "name": "Granada",
+   "code": "GRN",
+   "points": 981.82
+  },
+  {
+   "name": "Cuba",
+   "code": "CUB",
+   "points": 981.42
+  },
+  {
+   "name": "Essuatíni",
+   "code": "SWZ",
+   "points": 979.01
+  },
+  {
+   "name": "Santa Lúcia",
+   "code": "LCA",
+   "points": 976.71
+  },
+  {
+   "name": "Bermudas",
+   "code": "BER",
+   "points": 975.05
+  },
+  {
+   "name": "Papua-Nova Guiné",
+   "code": "PNG",
+   "points": 974.9
+  },
+  {
+   "name": "Sudão do Sul",
+   "code": "SSD",
+   "points": 970.94
+  },
+  {
+   "name": "São Vicente e Granadinas",
+   "code": "VIN",
+   "points": 968.27
+  },
+  {
+   "name": "Afeganistão",
+   "code": "AFG",
+   "points": 968.07
+  },
+  {
+   "name": "Andorra",
+   "code": "AND",
+   "points": 946.43
+  },
+  {
+   "name": "Maldivas",
+   "code": "MDV",
+   "points": 943.92
+  },
+  {
+   "name": "Taipé Chinesa",
+   "code": "TPE",
+   "points": 923.78
+  },
+  {
+   "name": "Camboja",
+   "code": "CAM",
+   "points": 922.32
+  },
+  {
+   "name": "Montserrat",
+   "code": "MSR",
+   "points": 916.75
+  },
+  {
+   "name": "Nepal",
+   "code": "NEP",
+   "points": 914.54
+  },
+  {
+   "name": "Maurício",
+   "code": "MRI",
+   "points": 911.49
+  },
+  {
+   "name": "Barbados",
+   "code": "BRB",
+   "points": 909.89
+  },
+  {
+   "name": "Belize",
+   "code": "BLZ",
+   "points": 907.0
+  },
+  {
+   "name": "Bangladesh",
+   "code": "BAN",
+   "points": 902.93
+  },
+  {
+   "name": "Dominica",
+   "code": "DMA",
+   "points": 897.69
+  },
+  {
+   "name": "Chade",
+   "code": "CHA",
+   "points": 896.85
+  },
+  {
+   "name": "Eritreia",
+   "code": "ERI",
+   "points": 887.06
+  },
+  {
+   "name": "Laos",
+   "code": "LAO",
+   "points": 885.03
+  },
+  {
+   "name": "Ilhas Cook",
+   "code": "COK",
+   "points": 877.53
+  },
+  {
+   "name": "Sri Lanka",
+   "code": "SRI",
+   "points": 876.86
+  },
+  {
+   "name": "Samoa",
+   "code": "SAM",
+   "points": 876.41
+  },
+  {
+   "name": "Aruba",
+   "code": "ARU",
+   "points": 875.61
+  },
+  {
+   "name": "Mongólia",
+   "code": "MNG",
+   "points": 874.47
+  },
+  {
+   "name": "Samoa Americana",
+   "code": "ASA",
+   "points": 871.61
+  },
+  {
+   "name": "Butão",
+   "code": "BHU",
+   "points": 870.81
+  },
+  {
+   "name": "Macau",
+   "code": "MAC",
+   "points": 858.03
+  },
+  {
+   "name": "Brunei",
+   "code": "BRU",
+   "points": 857.73
+  },
+  {
+   "name": "São Tomé e Príncipe",
+   "code": "STP",
+   "points": 855.44
+  },
+  {
+   "name": "Djibuti",
+   "code": "DJI",
+   "points": 853.58
+  },
+  {
+   "name": "Ilhas Cayman",
+   "code": "CAY",
+   "points": 850.06
+  },
+  {
+   "name": "Paquistão",
+   "code": "PAK",
+   "points": 840.28
+  },
+  {
+   "name": "Somália",
+   "code": "SOM",
+   "points": 839.17
+  },
+  {
+   "name": "Tonga",
+   "code": "TGA",
+   "points": 835.64
+  },
+  {
+   "name": "Timor-Leste",
+   "code": "TLS",
+   "points": 831.0
+  },
+  {
+   "name": "Gibraltar",
+   "code": "GIB",
+   "points": 820.26
+  },
+  {
+   "name": "Guam",
+   "code": "GUM",
+   "points": 819.54
+  },
+  {
+   "name": "Seicheles",
+   "code": "SEY",
+   "points": 804.16
+  },
+  {
+   "name": "Ilhas Turcas e Caicos",
+   "code": "TCA",
+   "points": 803.98
+  },
+  {
+   "name": "Liechtenstein",
+   "code": "LIE",
+   "points": 797.7
+  },
+  {
+   "name": "Bahamas",
+   "code": "BAH",
+   "points": 786.82
+  },
+  {
+   "name": "Ilhas Virgens Americanas",
+   "code": "VIR",
+   "points": 779.76
+  },
+  {
+   "name": "Ilhas Virgens Britânicas",
+   "code": "VGB",
+   "points": 777.41
+  },
+  {
+   "name": "Anguilla",
+   "code": "AIA",
+   "points": 760.25
+  },
+  {
+   "name": "San Marino",
+   "code": "SMR",
+   "points": 721.2
+  }
+ ],
+ "suggested": "WC"
+}

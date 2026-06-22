@@ -1,0 +1,32 @@
+{
+ "sports": [
+  {
+   "name": "Futebol — Ranking FIFA",
+   "desc": "Seleções masculinas · simulador de confronto (método SUM/Elo)",
+   "path": "futebol.html",
+   "status": "ativo",
+   "emoji": "⚽"
+  },
+  {
+   "name": "Basquete — Ranking FIBA",
+   "desc": "Seleções nacionais",
+   "path": "",
+   "status": "em breve",
+   "emoji": "🏀"
+  },
+  {
+   "name": "Rúgbi — World Rugby",
+   "desc": "Seleções nacionais",
+   "path": "",
+   "status": "em breve",
+   "emoji": "🏉"
+  },
+  {
+   "name": "Xadrez — Elo FIDE",
+   "desc": "Ranking individual",
+   "path": "",
+   "status": "em breve",
+   "emoji": "♟️"
+  }
+ ]
+}

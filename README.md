@@ -1,22 +1,18 @@
-# Ranking FIFA — Simulador de Confronto
+# Rankings Esportivos
 
-Site que mostra o Ranking Mundial FIFA (masculino) e simula, para qualquer confronto,
-quantos pontos e quantas posicoes cada selecao ganha ou perde em cada resultado.
-
-## Como se mantem atualizado
-- Os dados ficam no arquivo `data.json`.
-- Uma rotina automatica do GitHub (`.github/workflows/update.yml`) roda uma vez por dia,
-  executa `update_ranking.py`, busca o ranking mais recente e regrava `data.json`.
-- A pagina (`index.html`) le esse arquivo toda vez que e aberta.
+Portal com rankings de varios esportes (GitHub Pages, atualizado automaticamente).
+Estrutura SEM pastas para facilitar o envio pelo navegador.
 
 ## Arquivos
-- `index.html` — a pagina do simulador.
-- `data.json` — os dados do ranking (atualizados pela rotina).
-- `update_ranking.py` — o programa que busca os dados.
-- `.github/workflows/update.yml` — o agendamento da rotina.
+- index.html          -> menu inicial (le sports.json)
+- sports.json         -> lista de esportes (ativos e "em breve")
+- futebol.html        -> ranking de futebol (le futebol-data.json)
+- futebol-data.json   -> dados do futebol
+- update_futebol.py   -> robo do futebol (grava futebol-data.json)
+- .github/workflows/update.yml -> roda, de hora em hora, todos os update_*.py da raiz
 
-## Observacoes
-- Os dados vem de football-ranking.com. Se o site de origem mudar de layout, a rotina
-  pode falhar e `update_ranking.py` precisara de um pequeno ajuste.
-- As variacoes de posicao sao estimativas; a pontuacao oficial da FIFA so muda nas datas
-  de atualizacao do orgao.
+## Como adicionar um esporte X
+1. Crie X.html (pagina) e X-data.json (dados iniciais).
+2. Crie update_X.py, que grava X-data.json.
+3. Em sports.json, acrescente/edite a entrada com status "ativo" e path "X.html".
+O workflow ja roda qualquer update_*.py automaticamente.
