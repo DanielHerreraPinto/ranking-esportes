@@ -159,7 +159,7 @@ const selA=$('teamA'), selB=$('teamB'), selC=$('comp'), ko=$('ko');
 
 function fillTeamSelect(sel){
   const alpha=[...TEAMS].sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));
-  sel.innerHTML=alpha.map(t=>`<option value="${t.code}">${t.name} (${t.rank}º)</option>`).join('');
+  sel.innerHTML='<option value="">— selecione —</option>'+alpha.map(t=>`<option value="${t.code}">${t.name} (${t.rank}º)</option>`).join('');
 }
 function expected(pa,pb){return 1/(Math.pow(10,(pb-pa)/600)+1);}
 function rankFor(points,excludeCode){let c=0;for(const t of TEAMS){if(t.code===excludeCode)continue;if(t.points>points)c++;}return c+1;}
@@ -179,10 +179,16 @@ function outcomeRow(team, opp, I, knock){
   }).join('');
 }
 function render(){
-  const a=byCode[selA.value], b=byCode[selB.value], comp=COMPS[+selC.value], knock=ko.checked;
-  if(!a||!b) return;
-  if(a.code===b.code){$('warn').style.display='block';$('panel').style.display='none';return;}
+  const a=byCode[selA.value], b=byCode[selB.value];
+  const compIdx=(selC.value===''?-1:+selC.value), comp=COMPS[compIdx], knock=ko.checked;
+  if(a&&b&&a.code===b.code){$('warn').style.display='block';$('panel').style.display='none';return;}
   $('warn').style.display='none';$('panel').style.display='';
+  if(!a||!b||!comp){
+    $('summary').innerHTML='';
+    $('results').innerHTML='';
+    $('note').textContent='Escolha as duas seleções e a competição para ver a simulação.';
+    return;
+  }
   const weA=expected(a.points,b.points);
   $('summary').innerHTML=`
     <div class="sumitem">Confronto<br><b>${a.name} × ${b.name}</b></div>
@@ -207,17 +213,19 @@ function renderTable(q=''){
 }
 selA.addEventListener('change',()=>{render();renderTable($('filter').value);});
 selB.addEventListener('change',()=>{render();renderTable($('filter').value);});
-selC.addEventListener('change',()=>{ko.checked=COMPS[+selC.value].ko;render();});
+selC.addEventListener('change',()=>{const c=COMPS[+selC.value]; if(c) ko.checked=c.ko; render();});
 ko.addEventListener('change',render);
 $('swap').addEventListener('click',()=>{const t=selA.value;selA.value=selB.value;selB.value=t;render();renderTable($('filter').value);});
 $('filter').addEventListener('input',e=>renderTable(e.target.value));
 
 async function boot(){
+  let suggested=null;
   try{
     const res = await fetch('data.json', {cache:'no-store'});
     if(!res.ok) throw new Error('HTTP '+res.status);
     const j = await res.json();
     TEAMS = j.teams || [];
+    suggested = j.suggested || null;
     const u=$('updated'); if(u) u.textContent = j.updated || '—';
   }catch(e){
     $('panel').innerHTML = '<p class="note">Não foi possível carregar os dados (data.json). Abra esta página pelo endereço do site no GitHub Pages — ela não funciona aberta como arquivo local.</p>';
@@ -227,10 +235,11 @@ async function boot(){
   TEAMS.forEach((t,i)=>t.rank=i+1);
   byCode={}; TEAMS.forEach(t=>byCode[t.code]=t);
   fillTeamSelect(selA); fillTeamSelect(selB);
-  selC.innerHTML=COMPS.map((c,i)=>`<option value="${i}">${c.label}</option>`).join('');
-  selA.value='NZL'; selB.value='EGY'; selC.value='0';
-  if(!byCode['NZL']) selA.selectedIndex=0;
-  if(!byCode['EGY']) selB.selectedIndex=1;
+  selC.innerHTML='<option value="">— selecione —</option>'+COMPS.map((c,i)=>`<option value="${i}">${c.label}</option>`).join('');
+  selA.value=''; selB.value='';
+  const SUGGEST={WC:0,WCQ:2,NL:3,CONT:5,FRIENDLY:7};
+  selC.value=(suggested&&SUGGEST[suggested]!==undefined)?String(SUGGEST[suggested]):'';
+  const c0=COMPS[+selC.value]; if(c0) ko.checked=c0.ko;
   render(); renderTable();
 }
 boot();

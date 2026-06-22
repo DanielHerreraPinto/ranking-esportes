@@ -52,10 +52,32 @@ def parse_page(html):
         rows.append((code, name_src, pts))
     return rows
 
+def detect_competition(html):
+    low = html.lower()
+    i = low.find("latest matches")
+    region = low[i:] if i != -1 else low
+    checks = [
+        ("world championship", "WC"), ("world cup final", "WC"),
+        ("qualifier", "WCQ"), ("nations league", "NL"),
+        ("euro", "CONT"), ("copa america", "CONT"), ("copa am\u00e9rica", "CONT"),
+        ("africa cup", "CONT"), ("afcon", "CONT"), ("asian cup", "CONT"), ("gold cup", "CONT"),
+        ("friendly", "FRIENDLY"),
+    ]
+    best, bestpos = None, None
+    for kw, key in checks:
+        p = region.find(kw)
+        if p != -1 and (bestpos is None or p < bestpos):
+            best, bestpos = key, p
+    return best
+
 def main():
     teams = {}
-    for url in PAGES:
-        for code, name_src, pts in parse_page(fetch(url)):
+    suggested = None
+    for i, url in enumerate(PAGES):
+        html = fetch(url)
+        if i == 0:
+            suggested = detect_competition(html)
+        for code, name_src, pts in parse_page(html):
             teams[code] = (name_src, pts)  # dedupe por codigo
     if len(teams) < 150:
         sys.stderr.write("ERRO: apenas %d selecoes lidas - provavel mudanca no site. data.json NAO foi alterado.\n" % len(teams))
@@ -66,6 +88,7 @@ def main():
     data = {
         "updated": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-3))).strftime("%d/%m/%Y %H:%M (horário de Brasília)"),
         "source": "football-ranking.com",
+        "suggested": suggested,
         "teams": out_teams,
     }
     with open("data.json", "w", encoding="utf-8") as f:
